@@ -64,6 +64,7 @@ Grab all of the `hi!` lines and add them to the colors file.
 neovim 0.10.0 has broken backwards compatibility with colorscheme highlight links/groupings.
 * https://github.com/neovim/neovim/issues/26378
 * https://github.com/neovim/neovim/blob/574519d9d68f7f28a868e95ef0d081cbae6ddec4/runtime/doc/news.txt#L106-L109
+* https://github.com/altercation/vim-colors-solarized/issues/240
 
 It is now required to use `colors/vim.lua` (aka `colorscheme vim`) in neovim to reset the highlight group settings if you want to use colorschemes that do not explicitly define every group.
 
