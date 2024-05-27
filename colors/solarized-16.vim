@@ -51,6 +51,7 @@ if has('nvim')
 endif
 
 if &background == 'light'
+	"" light
 	hi! Normal cterm=NONE term=NONE ctermfg=11 ctermbg=15
 	hi! Comment cterm=NONE term=NONE ctermfg=14 ctermbg=NONE
 	hi! Constant cterm=NONE term=NONE ctermfg=6 ctermbg=NONE
@@ -276,8 +277,9 @@ if &background == 'light'
 	hi! pandocMetadata ctermfg=4 ctermbg=NONE cterm=NONE term=NONE
 	hi! pandocMetadataKey ctermfg=4 ctermbg=NONE cterm=NONE term=NONE
 	hi! pandocMetadata ctermfg=4 ctermbg=NONE cterm=NONE,bold term=NONE,bold
-	hi! link pandocMetadataTitle             pandocMetadatarecording @t
+	hi! link pandocMetadataTitle             pandocMetadata
 else
+	"" dark
 	hi! Normal cterm=NONE term=NONE ctermfg=12 ctermbg=8
 	hi! Comment cterm=NONE term=NONE ctermfg=10 ctermbg=NONE
 	hi! Constant cterm=NONE term=NONE ctermfg=6 ctermbg=NONE
